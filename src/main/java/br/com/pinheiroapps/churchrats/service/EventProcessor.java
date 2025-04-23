@@ -1,6 +1,6 @@
 package br.com.pinheiroapps.churchrats.service;
 
-import br.com.pinheiroapps.churchrats.dto.MessageDto;
+import br.com.pinheiroapps.churchrats.domain.dto.MessageDto;
 import br.com.pinheiroapps.churchrats.model.webhook.WebhookEvent;
 import br.com.pinheiroapps.churchrats.util.MenuChatUtils;
 import br.com.pinheiroapps.churchrats.util.WebhookUtils;

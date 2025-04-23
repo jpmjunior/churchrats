@@ -1,6 +1,6 @@
 package br.com.pinheiroapps.churchrats.controller;
 
-import br.com.pinheiroapps.churchrats.dto.MessageDto;
+import br.com.pinheiroapps.churchrats.domain.dto.MessageDto;
 import br.com.pinheiroapps.churchrats.service.MessengerService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

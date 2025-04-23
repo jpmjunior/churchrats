@@ -1,6 +1,6 @@
 package br.com.pinheiroapps.churchrats.service;
 
-import br.com.pinheiroapps.churchrats.dto.MessageDto;
+import br.com.pinheiroapps.churchrats.domain.dto.MessageDto;
 import com.google.gson.GsonBuilder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

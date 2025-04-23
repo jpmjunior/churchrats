@@ -1,4 +1,4 @@
-package br.com.pinheiroapps.churchrats.dto;
+package br.com.pinheiroapps.churchrats.domain.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
