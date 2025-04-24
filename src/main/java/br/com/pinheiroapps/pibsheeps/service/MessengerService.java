@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -47,7 +48,10 @@ public class MessengerService {
         headers.setBearerAuth(graphApiToken);
         headers.setContentType(MediaType.APPLICATION_JSON);
 
-        restTemplate.postForEntity(url, new HttpEntity<>(messageData, headers), String.class);
+        ResponseEntity<String> response = restTemplate.postForEntity(url, new HttpEntity<>(messageData, headers), String.class);
+
+        log.info("Mensagem enviada. Status code: {}. Content: {}", response.getStatusCode().value(), response.getBody());
+
     }
 
 }
