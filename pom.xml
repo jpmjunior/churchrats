@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.pinheiroapps</groupId>
-	<artifactId>churchrats</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>churchrats</name>
+	<artifactId>pibsheeps</artifactId>
+	<version>0.0.1</version>
+	<name>pibsheeps</name>
 	<description>Registre sua rotina na igreja</description>
 	<url/>
 	<licenses>

@@ -19,11 +19,11 @@ FROM openjdk:21 AS deploy
 WORKDIR /app
 
 # Copia o arquivo JAR gerado na fase anterior
-COPY --from=build /app/target/churchrats-0.0.1-SNAPSHOT.jar /app/churchrats.jar
+COPY --from=build /app/target/pibsheeps-0.0.1.jar /app/pibsheeps.jar
 
 # Expõe a porta 8080
 EXPOSE 8080
 
 # Comando para iniciar a aplicação
-ENTRYPOINT ["java", "-jar", "/app/churchrats.jar"]
+ENTRYPOINT ["java", "-jar", "/app/pibsheeps.jar"]
 
